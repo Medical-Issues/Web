@@ -1,0 +1,482 @@
+body, html
+{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    text-size-adjust: none;
+}
+.Title
+{
+    color: orangered;
+    font-family:"Segoe UI", sans-serif;
+    text-align: center;
+    padding: 0.3em;
+    font-weight: bold;
+    font-size: 4.8em;
+    overflow: visible;
+}
+.Title img
+{
+    max-width: 1em;
+}
+/*----------------------------------*/
+.logo img
+{
+    max-width: 10.8em;
+    text-align: center;
+}
+.logo
+{
+    overflow: visible;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 9em;
+    margin-left: 5px;
+}
+.logo:hover
+{
+    transition: 500ms;
+    transform: scale(1.200);
+}
+/*----------------------------------*/
+body
+{
+    margin: 0;
+    overflow: auto;
+    background-color: #c3c3c3;
+}
+/*----------------------------------*/
+.container
+{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    max-width: 100%;
+}
+/*----------------------------------*/
+.header
+{
+    justify-content: space-around;
+    background-color: #333333;
+    text-align: center;
+    width: 100%;
+    padding-top: 0.35em;
+    padding-bottom: 0.35em;
+}
+/*----------------------------------*/
+.dropdown-list
+{
+    color: black;
+    font-family:"Segoe UI", sans-serif;
+    display: block;
+    text-align: center;
+    padding: 1em;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+.dropdown
+{
+    padding: 0;
+    background-color: orangered;
+    max-width: 10em;
+    position: relative;
+    margin-right: 5px;
+}
+.dropdown-content
+{
+    display: none;
+    position: absolute;
+    width: 100%;
+}
+.dropdown-content a
+{
+    color: orangered;
+    padding: 1em;
+    text-decoration: none;
+    display: block;
+    font-family: "Segoe UI", sans-serif;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+    background-color: #333333;
+}
+.dropdown-content a:hover
+{
+    background-color: orange;
+    position: relative;
+    display: block;
+}
+.dropdown:hover .dropdown-content
+{
+    display: block;
+}
+
+.dropdown:hover .small {
+    display: none;
+}
+/*----------------------------------*/
+.Content
+{
+    padding-top: 1em;
+    padding-bottom: 1em;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    display: flex;
+    flex: 1 0 auto;
+}
+.Content img
+{
+    width: 20em;
+}
+.Content a div
+{
+    font-family: "Segoe UI", sans-serif;
+    font-size: 2.5em;
+    text-align: center;
+    padding-bottom: 2em;
+    padding-top: 2em;
+}
+
+.Content a {
+    box-sizing: border-box;
+    text-align: center;
+    justify-content: center;
+    background-size: 20em;
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+
+.Image
+{
+    display: inline-block;
+}
+.Image:hover
+{
+    transition: 500ms;
+    transform: scale(1.105);
+}
+/*---------------------------------*/
+.Content a:link
+{
+    text-decoration: none;
+    color: Orangered;
+}
+.Content a:visited
+{
+    text-decoration: none;
+    color: Orangered;
+}
+.Content a.SK
+{
+    background-image: url("Obrázky/Menu/Slovenskávlajka.png");
+}
+.Content a.A
+{
+    background-image: url("Obrázky/Menu/Rakouskávlajka.png");
+}
+.Content a.D
+{
+    background-image: url("Obrázky/Menu/Německávlajka.jpg");
+}
+.Content a.PL
+{
+    background-image: url("Obrázky/Menu/Polskávlajka.jpg");
+}
+/*----------------------------------*/
+@media (max-width: 1295px) {
+    .Content a {
+        flex: 0 1 calc(50% - 20px);
+    }
+}
+@media (max-width: 1050px) {
+    .Title {
+        font-size: 2.5em;
+    }
+    .photos {
+        flex-direction: column;
+    }
+}
+@media (max-width: 710px) {
+    .logo img
+    {
+        max-height: 6em;
+    }
+    .dropdown {
+        max-width: 7em;
+        font-size: 0.7em;
+        text-align: center;
+    }
+    .dropdown:hover .small {
+        display: block;
+    }
+    .dropdown:hover .big {
+        display: none;
+    }
+}
+@media (max-width: 650px) {
+    .text_image img {
+        width: 17em;
+    }
+}
+@media (max-width: 1555px) {
+    .photos img {
+        width: 28em;
+    }
+}
+/*----------------------------------*/
+.MainContent
+{
+    color: black;
+    font-family: "Segoe UI", sans-serif;
+    font-size: 1em;
+    flex: 1 0 auto;
+}
+.MainContent h1
+{
+    color: orangered;
+    text-align: center;
+}
+.MainContent .flag
+{
+    width: 6em;
+}
+/*----------------------------------*/
+.Basic_info
+{
+    padding: 2.4em;
+}
+/*----------------------------------*/
+.text_image {
+    background-color: darkgrey;
+    padding: 2.4em;
+    color: black;
+    font-family: "Segoe UI", sans-serif;
+    text-align: justify;
+}
+.text_image img
+{
+    float: right;
+    max-width: 22em;
+    max-height: 24em;
+    margin: 20px 0 20px 20px;
+}
+/*----------------------------------*/
+.carousel {
+    width: 100%;
+    align-items: center;
+}
+
+.carousel-inner {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+
+.carousel-open:checked + .carousel-item {
+    position: static;
+    opacity: 100;
+}
+
+.carousel-item {
+    position: absolute;
+    opacity: 0;
+    transition: all 500ms ease-in-out;
+    width: 100%;
+}
+
+.carousel-item img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+}
+
+.carousel-indicators {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    bottom: 3%;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    text-decoration: none;
+}
+
+.carousel-indicators li {
+    width: 100px;
+    text-align: center;
+    background-color: rgba(0,0,0,50%);
+}
+
+.carousel-bullet {
+    color: white;
+    cursor: pointer;
+    font-size: 2em;
+}
+
+.carousel-bullet:hover {
+    color: orange;
+}
+
+#carousel-1:checked ~ .carousel-indicators li:nth-child(1) .carousel-bullet,
+#carousel-2:checked ~ .carousel-indicators li:nth-child(2) .carousel-bullet,
+#carousel-3:checked ~ .carousel-indicators li:nth-child(3) .carousel-bullet {
+    color: orangered;
+
+}
+
+.carousel .carousel-item img {
+    width: 100%;
+}
+/*--------------------------*/
+.Basic_info_background
+{
+    background-size: cover;
+    text-align: center;
+    padding: 16.8em 0 16.8em 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.test{
+    opacity: 0.5;
+}
+.Basic_info_background .text
+{
+    width: 60%
+}
+/*--------------------------*/
+.Basic_info_background
+{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 20%;
+    padding: 16.8em 0 16.8em 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.DInfo
+{
+    background-image: linear-gradient(rgba(255, 255, 255, 0.20), rgba(255, 255, 255, 0.20)), url("Obrázky/Německo/Brána.jpg");
+}
+.PLInfo
+{
+    background-image: linear-gradient(rgba(255, 255, 255, 0.10), rgba(255, 255, 255, 0.10)), url("Obrázky/Polsko/město.jpg");
+}
+/*--------------------------*/
+.photos
+{
+    justify-content: space-around;
+    display: flex;
+    padding: 3.5em 0 3.5em 0;
+    background-color: darkgrey;
+}
+.photos img
+{
+    max-width: 48em;
+}
+.footer{
+    justify-content: space-around;
+    background-color: #333333;
+    text-align: center;
+    width: 100%;
+    padding-top: 0.35em;
+    padding-bottom: 0.35em;
+    font-family:"Segoe UI", sans-serif;
+    font-size: 0.8em;
+    color: orangered;
+}
+.footer a{
+    color: orangered;
+}.footer a:visited{
+    color: orange;
+ }
+.copyright {
+    width: 50%;
+}
+.here {
+    animation: fade 1s infinite;
+}
+@keyframes fade {
+    0% {
+        background-color: orange;
+        box-shadow: 0 0 50px;
+    }
+    50% {
+        background-color: #333333;
+        box-shadow: 0 0 0;
+    }
+    100% {
+        background-color: orange;
+        box-shadow: 0 0 50px;
+    }
+}
+.form
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #c3c3c3;
+    border-color: orangered;
+}
+.name, .email
+{
+    background-color: #c3c3c3;
+    border: 2px orangered solid;
+    width: 20em;
+}
+.message
+{
+    background-color: #c3c3c3;
+    border: 2px orangered solid;
+    width: 50em;
+    height: 15em;
+}
+.button
+{
+    margin: 8px;
+}
+.altActivation
+{
+    display: flex;
+    flex-direction: column;
+}
+.references
+{
+    display: flex;
+    flex-direction: column;
+}
+.info-table th {
+    background-color: #333333;
+    color: orangered;
+    font-weight: bold;
+    text-align: center;
+}
+.info-table {
+    width: 80%;
+    border-collapse: collapse;
+    margin: 1em auto 1em auto;
+    background-color: orangered;
+    font-family: "Segoe UI", sans-serif;
+    text-align: left;
+}
+
+.info-table th, .info-table td {
+    padding: 0.8em;
+    border: 1px solid black;
+}
+
+.info-table tr:nth-child(even) {
+    background-color: darkgrey;
+}
+.RedProject{
+    font-weight: bolder;
+    color: red;
+    font-size: larger;
+}
