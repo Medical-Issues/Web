@@ -1,0 +1,78 @@
+Termín odevzdání
+
+pátek 6.12.2024, 23:59 
+(pátek 1.11.2024, 23:59 v zrychleném absolvování)
+
+Bodová dotace (minimální hranice)
+10 bodů (min. 6 bodů)
+
+Způsob odevzdání
+Výlučně v e-kurzu prostřednictvím nástroje „odevzdání semestrálního projektu“.
+
+PŘEDMĚT PROJEKTU
+Zápočtovým projektem „Statické webové stránky“ student dokazuje osvojení praktických dovedností tvorby statických HTML stránek a sestává z analýzy, návrhu a implementace webových stránek.
+
+POŽADAVKY NA ŘEŠENÍ
+
+Rozvržení stránky
+Přitažlivý vzhled pro cílové publikum
+Konzistentní záhlaví/logo stránky
+Konzistentní navigační oblast
+Informativní titulek webu, který obsahuje název společnosti/webu
+Oblast zápatí obsahuje informace o právech užívání (copyright), datum poslední aktualizace, kontaktní email
+Dobré použití základních principů designu: opakování, kontrast, blízkost a zarovnání
+Zobrazení bez vodorovného posouvání při běžném zobrazení 
+Rovnováha mezi textem, obrazové prvky a prázdným místem na stránce
+Informace, které se opakují (záhlaví/logo a navigace), zabírají max. třetinu okna prohlížeče při běžném zobrazení 
+Domovská stránka obsahuje přitažlivé, zajímavé informace nad ohybem (t.j. bez posouvání dolů) při běžném zobrazení 
+Použita metaznačka viewport pro zobrazení na mobilu
+Responzivní návrh rozložení pro zobrazení na mobilu a na tabletu, nejlépe s využitím media queries
+
+Prezentace obsahu
+Dodrženy doporučené zásady psaní pro web: nadpisy, odrážkové body, krátké odstavce,a pod.
+Konzistentní použití fontů, velikostí znaků a barev znaků 
+Obsah dodává smysluplnou, užitečnou informaci
+Organizace obsahu je konzistentní
+Obsah je aktuální (správné datum copyrightu nebo poslední aktualizace)
+V obsahu nejsou překlepy a gramatické chyby
+Hypertextové odkazy používájí konzistentní označení pro stav odkazu (navštíven/nenavštíven) 
+
+Barvy, grafika, multimédia
+Barevné schéma obsahuje max 3-4 barvy plus barvy neutrální
+Barvy jsou použity konzistentně
+Stránky obsahují fotogalerii
+Grafika je optimalizována pro web a načítání stránky výrazně nezpomaluje 
+Každý grafický prvek má jasný účel
+
+Navigace, funkčnost
+Odkazy hlavní navigace jsou jasně a konzistentně pojmenovány
+Navigace je snadno použitelná pro cílové publikum
+Řádné zobrazení v aktuální verzi Google Chrome
+Řádné zobrazení na mobilu a tabletu
+Všechny hypertextové odkazy (interní, externí) fungují
+Všechny formuláře fungují jen s využitím prohlížeče
+
+Přístupnost
+Přístupnost stránek je vyhodnocena jako dostatečná vhodným nástrojem
+Jestliže hlavní navigace používá obrázky nebo média, v zápatí jsou uvedeny jasné alternativní textové odkazy
+Navigace je strukturovaná jako neřazený seznam
+Barva není výlučným nositelem sdělení (významu)
+Barvy pozadí a textu jsou dostatečně kontrastní
+Jestliže grafika nese sdělení, je uveden i alternativní textový ekvivalent 
+
+Ostatní podmínky
+Projekt je zveřejněn na Internetu, nejlépe na lide.uhk.cz (lze i jinde)
+Minimální požadovaný rozsah je 5 stránek (HTML dokumentů) a 500 slov, povinné prvky jsou tabulka, formulář, fotogalerie a flexbox/grid
+V maximální míře budou použity strukturální elementy HTML5 (header, footer, nav, main, a další)
+Kód HTML i CSS je validní; výstup z validátoru je přiložen do protokolu
+Použití jazyka HTML5 a CSS bude splňovat aktuální doporučené postupy (vhodná organizace kódu, oddělení značkování od stylování)
+Web je v patičce zřetelně označen jako studentský zápočtový projekt
+Projekt není alternativní verzí existujícího webu
+Projekt nekopíruje existující web
+Projekt ani žádná jeho část neporušuje autorská práva
+Projekt je originálním a výlučným dílem odevzdávajícího studenta včetně formátu a responzivity
+Použití JS knihoven pro doplňkové funkce je dovoleno
+Použití frameworků jako je Boostrap, Skeleton není povoleno
+
+ODEVZDÁNÍ
+Vyplňte protokol k projektu, projekt i protokol (viz příloha) zabalte do jediného souboru ve formátu Prijmeni_Jmeno.ZIP, a odevzdejte v e-kurzu.
