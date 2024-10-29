@@ -8,13 +8,13 @@
     <link rel="shortcout icon" href="Obrázky/Menu/ČR_flag.png" type="image/x-icon">
 </head>
 <body>
-    <div class="container header">
+    <header class="container header">
         <div class="logo">
             <a href="index.html"><img src="Obrázky/Menu/Okolní_státy_ČR.png" alt="Mapa okolních států ČR"></a>
         </div>
-        <div class="Title">Sousední státy&nbsp;<img src="Obrázky/Menu/ČR_flag.png" alt="ČR"></div>
+        <h1 class="Title">Sousední státy&nbsp;<img src="Obrázky/Menu/ČR_flag.png" alt="ČR"></h1>
         <div class="dropdown">
-            <div class="dropdown-list">Seznam států</div>
+            <div tabindex="0" class="dropdown-list">Seznam států</div>
             <div class="dropdown-content">
                 <a class="big" href="SK.html">Slovensko</a>
                 <a class="small" href="SK.html">SK</a>
@@ -26,15 +26,22 @@
                 <a class="small" href="PL.html">PL</a>
             </div>
         </div>
-    </div>
+    </header>
+    <main>
     <div class="container Content">
         <a class="SK" href="SK.html"><img class="Image" src="Obrázky/Menu/Slovensko.png" alt="Mapa Slovenska"><div>Slovensko</div></a>
         <a class="A" href="A.html"><img class="Image" src="Obrázky/Menu/Rakousko.png" alt="Mapa Rakouska"><div>Rakousko</div></a>
         <a class="D" href="D.html"><img class="Image" src="Obrázky/Menu/Německo.png" alt="Mapa Německa"><div>Německo</div></a>
         <a class="PL" href="PL.html"><img class="Image" src="Obrázky/Menu/Polsko.png" alt="Mapa Polska"><div>Polsko</div></a>
     </div>
-    <div class="container footer">
-        <div class="copyright">© 2024 Veselský Jan. Všechna práva vyhrazena.<br>Veškerý obsah této stránky, včetně textů, grafiky a designu, je chráněn autorským právem. Některé obrázky na stránce byly použity z veřejných internetových zdrojů a patří jejich původním autorům. Tyto obrázky jsou využity pouze pro ilustrativní účely a nesmí být dále šířeny bez svolení jejich vlastníků. Obrázky z veřejných zdrojů mají vždy zdroj v zápatí stránky.<br> <div class="RedProject">Jedná se o studentský zápočtový projekt.</div></div>
+    </main>
+    <footer class="container footer">
+        <div class="copyright">© 2024 Veselský Jan. Všechna práva vyhrazena.
+            <br>
+            <a href="copyright.html">Informace o právách využití</a>
+            <br>
+            Jedná se o studentský zápočtový projekt.
+        </div>
         <div class="nextInfo">
             <div class="contact">Kontaktní email: jan.veselsky@uhk.cz</div>
             <div id="lastChange"></div>
@@ -47,7 +54,7 @@
             <a href="D.html">Německo</a>
             <a href="PL.html">Polsko</a>
         </div>
-    </div>
+    </footer>
     <script>
         const date = new Date(document.lastModified);
         document.getElementById("lastChange").innerHTML = "Datum poslední úpravy: " + date.getDate() + ". " + date.getMonth() + ". " + date.getFullYear() + " " + date.getHours() + ":" + date.getMinutes();
